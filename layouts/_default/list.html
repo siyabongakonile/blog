@@ -1,0 +1,23 @@
+{{ define "main" }}
+<div class="main-content-inner">
+    {{ $blogs := .Site.GetPage "blogs" }}
+    {{ range first 9 $blogs.RegularPagesRecursive}}
+        {{ partial "blog-post-item" . }}
+    {{ end }}
+</div>
+<div class="pagination-cont">
+    <div class="pagination">
+        <ul class="pagination-inner">
+            <li class="pagination-item"><a href="" class="pagination-link"><span class="las la-angle-double-left"></span></a></li>
+            <li class="pagination-item"><a href="" class="pagination-link"><span class="las la-angle-left"></span></a></li>
+            <li class="pagination-item"><a href="" class="pagination-link active">1</a></li>
+            <li class="pagination-item"><a href="" class="pagination-link">2</a></li>
+            <li class="pagination-item"><a href="" class="pagination-link">3</a></li>
+            <li class="pagination-item"><a href="" class="pagination-link">4</a></li>
+            <li class="pagination-item"><a href="" class="pagination-link">5</a></li>
+            <li class="pagination-item"><a href="" class="pagination-link"><span class="las la-angle-right"></span></a></li>
+            <li class="pagination-item"><a href="" class="pagination-link"><span class="las la-angle-double-right"></span></a></li>
+        </ul>
+    </div>
+</div>
+{{ end }}
