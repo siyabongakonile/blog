@@ -1,20 +1,28 @@
 {
     "content": [
         {
-            "term": "text-align",
-            "description": "Praesent sem ipsum, blandit id tincidunt commodo, ullamcorper et quam. Praesent nisi sem, fringilla eget interdum at, congue sollicitudin velit. Pellentesque libero nisi, sollicitudin eget risus sit amet, vestibulum rhoncus urna. Donec semper tincidunt tellus, at euismod nulla pharetra eget. "
+            "term": "<?php",
+            "description": "Opening tag for PHP code."
         },
         {
-            "term": "text-align",
-            "description": "Praesent sem ipsum, blandit id tincidunt commodo, ullamcorper et quam. Praesent nisi sem, fringilla eget interdum at, congue sollicitudin velit. Pellentesque libero nisi, sollicitudin eget risus sit amet, vestibulum rhoncus urna. Donec semper tincidunt tellus, at euismod nulla pharetra eget. "
+            "term": "?>",
+            "description": "closing tag for PHP code."
         },
         {
-            "term": "some very dumb thing",
-            "description": "Praesent sem ipsum, blandit id tincidunt commodo, ullamcorper et quam. Praesent nisi sem, fringilla eget interdum at, congue sollicitudin velit. Pellentesque libero nisi, sollicitudin eget risus sit amet, vestibulum rhoncus urna. Donec semper tincidunt tellus, at euismod nulla pharetra eget. "
+            "term": "// comment",
+            "description": "Marks a single line comment."
         },
         {
-            "term": "text-align",
-            "description": "Praesent sem ipsum, blandit id tincidunt commodo, ullamcorper et quam. Praesent nisi sem, fringilla eget interdum at, congue sollicitudin velit. Pellentesque libero nisi, sollicitudin eget risus sit amet, vestibulum rhoncus urna. Donec semper tincidunt tellus, at euismod nulla pharetra eget. "
+            "term": "# comment",
+            "description": "Marks a single line comment."
+        },
+        {
+            "term": "/* comment */",
+            "description": "Marks a multi-line comment with the comment text being the comment."
+        },
+        {
+            "term": "/** Comment */",
+            "description": "Marks a DocBlock comment. PHP DocBlocks are normal php comment than can include phpDoc tags."
         }
     ]
 }
