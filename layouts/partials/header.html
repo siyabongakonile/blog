@@ -1,5 +1,5 @@
 <!-- Start of Horizontal Header/Navigation -->
-<header class="main-header">
+<header class="main-header {{ if eq .Permalink .Site.BaseURL }}main-header-home{{ end }}">
     <div class="logo-cont">
         <img src="{{ .Site.BaseURL }}/img/logo/logo_large.png" alt="LOGO" class="logo">
     </div>

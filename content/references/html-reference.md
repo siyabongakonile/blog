@@ -8,4 +8,4 @@ author: "Siyabonga Konile"
 draft: true
 ---
 
-Aliquam tempor magna ac augue efficitur ornare. Vestibulum magna nibh, malesuada id consectetur vitae, aliquam sit amet felis. Sed porttitor pretium nibh, sed blandit dui imperdiet at. Curabitur malesuada elit vel lectus placerat efficitur sit amet in tellus. Maecenas quis nunc vel libero bibendum condimentum quis et nunc. Praesent accumsan, arcu ac ultrices pretium, dui nibh facilisis ligula, ut sagittis odio nisi vitae mauris. Praesent sem ipsum, blandit id tincidunt commodo, ullamcorper et quam. Praesent nisi sem, fringilla eget interdum at, congue sollicitudin velit. Pellentesque libero nisi, sollicitudin eget risus sit amet, vestibulum rhoncus urna. Donec semper tincidunt tellus, at euismod nulla pharetra eget. 
+Welcome to this HTML5 references page, where you can find a comprehensive list of HTML5 elements, attributes, and events. This page is designed to serve as a handy reference guide for web developers and designers who are looking to create modern, standards-compliant websites using HTML5.

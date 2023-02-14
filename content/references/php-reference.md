@@ -8,4 +8,4 @@ author: "Siyabonga Konile"
 draft: true
 ---
 
-Aliquam tempor magna ac augue efficitur ornare. Vestibulum magna nibh, malesuada id consectetur vitae, aliquam sit amet felis. Sed porttitor pretium nibh, sed blandit dui imperdiet at. Curabitur malesuada elit vel lectus placerat efficitur sit amet in tellus. Maecenas quis nunc vel libero bibendum condimentum quis et nunc. Praesent accumsan, arcu ac ultrices pretium, dui nibh facilisis ligula, ut sagittis odio nisi vitae mauris.
+Welcome to this PHP references page, where you can find a comprehensive list of PHP functions, syntax, and constructs. This page is designed to serve as a handy reference guide for web developers and programmers who are looking to create dynamic, server-side web applications using PHP.

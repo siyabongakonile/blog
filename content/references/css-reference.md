@@ -8,4 +8,4 @@ author: "Siyabonga Konile"
 draft: true
 ---
 
-Praesent sem ipsum, blandit id tincidunt commodo, ullamcorper et quam. Praesent nisi sem, fringilla eget interdum at, congue sollicitudin velit. Pellentesque libero nisi, sollicitudin eget risus sit amet, vestibulum rhoncus urna. Donec semper tincidunt tellus, at euismod nulla pharetra eget.
+Welcome to this CSS references page, where you can find a comprehensive list of CSS properties, selectors, and values. This page is designed to serve as a handy reference guide for web developers and designers who are looking to create modern, stylish, and responsive web pages using CSS.

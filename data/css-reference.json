@@ -1,20 +1,8 @@
 {
     "content": [
         {
-            "term": "text-align",
-            "description": "Praesent sem ipsum, blandit id tincidunt commodo, ullamcorper et quam. Praesent nisi sem, fringilla eget interdum at, congue sollicitudin velit. Pellentesque libero nisi, sollicitudin eget risus sit amet, vestibulum rhoncus urna. Donec semper tincidunt tellus, at euismod nulla pharetra eget. "
-        },
-        {
-            "term": "text-align",
-            "description": "Praesent sem ipsum, blandit id tincidunt commodo, ullamcorper et quam. Praesent nisi sem, fringilla eget interdum at, congue sollicitudin velit. Pellentesque libero nisi, sollicitudin eget risus sit amet, vestibulum rhoncus urna. Donec semper tincidunt tellus, at euismod nulla pharetra eget. "
-        },
-        {
-            "term": "some very dumb thing",
-            "description": "Praesent sem ipsum, blandit id tincidunt commodo, ullamcorper et quam. Praesent nisi sem, fringilla eget interdum at, congue sollicitudin velit. Pellentesque libero nisi, sollicitudin eget risus sit amet, vestibulum rhoncus urna. Donec semper tincidunt tellus, at euismod nulla pharetra eget. "
-        },
-        {
-            "term": "text-align",
-            "description": "Praesent sem ipsum, blandit id tincidunt commodo, ullamcorper et quam. Praesent nisi sem, fringilla eget interdum at, congue sollicitudin velit. Pellentesque libero nisi, sollicitudin eget risus sit amet, vestibulum rhoncus urna. Donec semper tincidunt tellus, at euismod nulla pharetra eget. "
+            "term": "*{}",
+            "description": "Selector for selecting every element in the DOM."
         }
     ]
 }
