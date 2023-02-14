@@ -5,7 +5,7 @@ tags: ["All"]
 categories: ["All"]
 author: "Siyabonga Konile"
 blogImage: "blog-img.png"
-draft: true
+draft: false
 ---
 
 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum delectus, rem esse sed nobis voluptates sit assumenda distinctio eius vitae fugit eum molestiae repudiandae neque, praesentium itaque nihil dolorem. Molestias?
