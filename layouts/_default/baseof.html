@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="{{ .Site.BaseURL }}/img/logo/sk.png">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/main.css">
+    {{  if eq .Permalink .Site.BaseURL }}<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/home.css">{{ end }}
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/prism.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>{{ block "title" . }}{{ .Title }}{{ end }}</title>
+</head>
+<body>
+    {{ block "header" . }}
+    {{ partial "header" . }}
+    {{ end }}
+
+    {{ block "page-header" . }}
+    {{ partial "page-header" . }}
+    {{ end }}
+
+    <!-- Start of Content -->
+    <div class="container">
+        <div class="content">
+            <div class="content-inner">
+                <!-- Start of Sidebar -->
+                {{ $contactPage := printf "%scontact/" .Site.BaseURL }}
+                <aside class="left-aside {{ if eq $contactPage .Page.Permalink }}aside-no-margin{{ end }}">
+                    {{ block "aside" . }}
+                    {{ partial "aside-about" . }}
+                    {{ end }}
+                </aside>
+                <!-- End of Sidebar -->
+
+                <!-- Start of Blogs Section -->
+                <main class="main-content">
+                    {{ block "main" . }}
+                    {{ end }}
+                </main>
+                <!-- End of Blogs Section -->
+            </div>
+        </div>
+    </div>
+    
+    <!-- End of Content -->
+
+    {{ block "reference-section" . }}
+    {{ partial "references-section" . }}
+    {{ end }}
+
+    {{ block "footer" . }}
+    {{ partial "footer" . }}
+    {{ end }}
+
+    <script src="{{ .Site.BaseURL }}/js/main.js">
+    </script>
+    <script src="{{ .Site.BaseURL }}/js/prism.js">
+    </script>
+</body>
+</html>
