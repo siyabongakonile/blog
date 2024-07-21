@@ -5,7 +5,7 @@ tags: ["All", "PHP", "Programming"]
 categories: ["All", "Programming"]
 author: "Siyabonga Konile"
 blogImage: "php-code.jpg"
-draft: true
+draft: false
 ---
 
 Autoloading is the process of loading required classes without having to add the 
