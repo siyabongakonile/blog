@@ -7,6 +7,14 @@
     transition: all .3s linear;
 }
 
+code[class*=language-], pre[class*=language-]{
+    text-shadow: none !important;
+}
+
+.token.operator{
+    background-color: transparent !important;
+}
+
 html{
     scroll-behavior: smooth;
 }
